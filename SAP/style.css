@@ -1,0 +1,88 @@
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body.page-login {
+    background: #fff url(Fondo.jpg) no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content{
+	box-shadow: 5px 10px 18px black;
+	width: 400px;
+	background-color:#434a54;
+	position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+.logo{
+	margin: 15px;
+	width: 100%
+	height:auto;
+}
+.formulario{
+	padding: 45px;
+
+	text-align: center;
+}
+.boton {
+  cursor: pointer;
+	margin: 20px;
+	width: 200px;
+  display: inline-block;
+  padding: 8px 15px;
+  text-decoration: none;
+  color: #434a54; 
+}
+
+.boton:active {
+  color: white;
+  position: relative;
+  top: 2px; }
+
+.login {
+  margin-top:40px;
+  background-color: #f8c020;
+  border-radius: 15px 15px;
+  border-bottom: 4px solid #d2a526;
+  border-right: 4px solid #d2a526; }
+
+.login:active {
+  text-decoration: none;
+  border-bottom: 2px solid #d2a526;
+  border-right: 2px solid #d2a526; 
+}
+
+.lbl{
+  background-color: rgba( 0,0,0,0) !important;
+	margin-top: 25px;
+  outline: none;
+  border: none !important;
+  border-bottom: 1px solid white !important;
+  color: white;
+  width: 100%;
+  font-family: "Raleway";
+}
+
+.password{
+  text-decoration: none;
+  color:#d2a526;
+}
+.password:hover{
+  text-decoration: none;
+  color:  #fff
+}
+
+@media (max-width: 500px ){
+    .content{
+        width: 300px;
+    }
+}
